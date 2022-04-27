@@ -51,8 +51,8 @@ HELP = """
 • `/unmute`  __Unmute in VC__
 • `/update` __Update Current Settings n Restarts the Bot__
 
-© Powered By 
-[ __@mwkBoTs | @subin_works__ ]
+© Powered By
+  @EldroSupportGroup
 """
 
 
@@ -162,11 +162,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Updates', url='https://t.me/EldroUpdates'),
+                InlineKeyboardButton('💬 Support', url='https://t.me/EldroSupportGroup')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='t.me/subinps'),
-                InlineKeyboardButton('Bugs', url='t.me/subin_works')
+                InlineKeyboardButton('🤖 Developer', url='t.me/IAM_A_JOKER'),
+                InlineKeyboardButton('Bugs', url='t.me/EldroSupportGroup')
                 ],[
                 InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
             ]
